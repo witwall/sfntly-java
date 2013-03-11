@@ -21,6 +21,7 @@
 		</license>
 	</licenses>
 	<build>
+		<defaultGoal>clean install</defaultGoal>
 		<plugins>
 			<plugin>
 				<artifactId>maven-jar-plugin</artifactId>
