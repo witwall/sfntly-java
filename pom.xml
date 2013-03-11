@@ -5,6 +5,14 @@
 	<artifactId>sfntly</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<url>https://github.com/pascalleclercq/sfntly-java</url>
+	<parent>
+		<groupId>org.sonatype.oss</groupId>
+		<artifactId>oss-parent</artifactId>
+		<version>7</version>
+	</parent>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
 	<licenses>
 		<license>
 			<name>The Apache Software License, Version 2.0</name>
@@ -16,6 +24,8 @@
 		<plugins>
 			<plugin>
 				<artifactId>maven-jar-plugin</artifactId>
+				<version>2.4</version>
+				<!-- from build.xml ant build -->
 				<configuration>
 					<excludes>
 						<exclude>**/sample/**.java</exclude>
