@@ -1,11 +1,18 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>sfntly</groupId>
+	<groupId>com.github.sfntly</groupId>
 	<artifactId>sfntly</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<url>https://github.com/pascalleclercq/sfntly-java</url>
+	<licenses>
+		<license>
+			<name>The Apache Software License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
 	<build>
-
 		<plugins>
 			<plugin>
 				<artifactId>maven-jar-plugin</artifactId>
@@ -20,8 +27,8 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.0</version>
 				<configuration>
-					<source>1.5</source>
-					<target>1.5</target>
+					<source>1.6</source>
+					<target>1.6</target>
 				</configuration>
 			</plugin>
 		</plugins>
@@ -45,4 +52,11 @@
 			<version>4.8.1.1</version>
 		</dependency>
 	</dependencies>
+	<scm>
+		<connection>https://github.com/pascalleclercq/sfntly-java.git</connection>
+		<developerConnection>https://github.com/pascalleclercq/sfntly-java.git</developerConnection>
+		<url>https://github.com/pascalleclercq/sfntly-java</url>
+	</scm>
+	<name>sfntly java</name>
+	<description>Fork from http://code.google.com/p/sfntly/</description>
 </project>
